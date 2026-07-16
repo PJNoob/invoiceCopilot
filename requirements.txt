@@ -1,0 +1,31 @@
+# Core
+python-dotenv>=1.0
+pydantic>=2.0
+
+# OCR
+pdfplumber>=0.11
+pytesseract>=0.3.10
+
+# LLM API access (OpenRouter via OpenAI-compatible SDK)
+openai>=1.30
+
+# Fine-tuning (Day 4-5, run on Colab/Kaggle GPU but kept here for local model loading in Day 6 deploy)
+transformers>=4.40
+peft>=0.11
+torch>=2.2
+accelerate>=0.30
+datasets>=2.19
+
+# Experiment tracking / tracing
+wandb>=0.17
+langsmith>=0.1
+langchain>=0.2
+
+# Deployment (Day 6)
+fastapi>=0.111
+uvicorn>=0.30
+python-multipart>=0.0.9
+
+# Eval / data handling
+pandas>=2.2
+jsonschema>=4.22

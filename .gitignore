@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts (raw/eval/train inputs are regenerated, not committed)
+data/raw/*
+!data/raw/.gitkeep
+data/eval/*
+!data/eval/.gitkeep
+data/train/*
+!data/train/.gitkeep
+data/*.db
+
+# Results (script outputs, not source)
+results/day2_baseline/*
+!results/day2_baseline/.gitkeep
+results/day6_deployment/*
+!results/day6_deployment/.gitkeep
+
+# Model weights / LoRA adapters
+*.bin
+*.safetensors
+*.pt
+*.pth
+adapters/
+checkpoints/
+
+# Experiment tracking local caches
+wandb/
+.langchain/
+langsmith/
+
+# OS
+.DS_Store

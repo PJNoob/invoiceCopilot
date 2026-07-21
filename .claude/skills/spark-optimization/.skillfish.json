@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "spark-optimization",
+  "owner": "wshobson",
+  "repo": "agents",
+  "path": "plugins/data-engineering/skills/spark-optimization",
+  "branch": "main",
+  "sha": "3e48396d52f7a3c3b7d581ab561ec7752c2b4d42",
+  "source": "manual"
+}

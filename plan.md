@@ -45,9 +45,9 @@ Build a working Invoice/Receipt Copilot end to end in one week: OCR + prompted e
 
 ### Day 1 — LLM fundamentals + environment
 - [ ] Read/watch one solid attention + transformer walkthrough (2-3 hrs); jot down anything unclear
-- [ ] Set up the Python project: venv, `requirements.txt` (transformers, an OpenAI-SDK-compatible client for OpenRouter, pdfplumber, pytesseract, python-dotenv, pydantic)
-- [ ] Get a free OpenRouter (or HF Inference API) key; verify access with one test call to a free model
-- [ ] Write `notes/day1_fundamentals.md`: your own-words explanation of tokenization, attention, context window, and greedy/sampling/beam decoding — read it aloud until it's fluent without notes
+- [x] Set up the Python project: venv, `requirements.txt` (transformers, an OpenAI-SDK-compatible client for OpenRouter, pdfplumber, pytesseract, python-dotenv, pydantic)
+- [x] Get a free OpenRouter (or HF Inference API) key; verify access with one test call to a free model
+- [x] Write `notes/day1_fundamentals.md`: your own-words explanation of tokenization, attention, context window, and greedy/sampling/beam decoding — read it aloud until it's fluent without notes
 
 ### Day 2 — Baseline pipeline (no fine-tuning yet)
 - [ ] Source 15-20 sample invoices/receipts from a public dataset (e.g. Kaggle) into `data/raw/`

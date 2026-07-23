@@ -6,8 +6,9 @@ pydantic>=2.0
 pdfplumber>=0.11
 pytesseract>=0.3.10
 
-# LLM API access (OpenRouter via OpenAI-compatible SDK)
+# LLM API access (OpenRouter via OpenAI-compatible SDK, HuggingFace Inference API)
 openai>=1.30
+huggingface_hub>=0.23
 
 # Fine-tuning (Day 4-5, run on Colab/Kaggle GPU but kept here for local model loading in Day 6 deploy)
 transformers>=4.40
